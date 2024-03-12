@@ -1,0 +1,5 @@
+if getgenv().Mewing.Options.Device == "Mobile" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BagasDribble/ImBagas/main/Mewing_Mobile_Streamable.txt"))()
+elseif getgenv().Mewing.Options.Device == "PC" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BagasDribble/ImBagas/main/Mewing_Streamable_PC.txt"))()
+end
