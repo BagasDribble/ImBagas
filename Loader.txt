@@ -1,7 +1,7 @@
 script_key = getgenv().Mewing.Options.Key
 
 if getgenv().Mewing.Options.Device == "Mobile" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BagasDribble/ImBagas/main/Protected_3605739477216647.lua.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BagasDribble/ImBagas/main/Protected_3470511516294651.lua.txt"))()
 elseif getgenv().Mewing.Options.Device == "PC" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BagasDribble/ImBagas/main/Protected_7793074160620092.lua.txt"))()
 end
